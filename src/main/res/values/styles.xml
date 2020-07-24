@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- Base Photo show theme. -->
+    <style name="DialogFragmentPhoto" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@android:color/black</item>
+    </style>
+
+
+    <!--    spots-dialog-->
+    <style name="SpotsDialog" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="android:background">@drawable/curated_background</item>
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">Loading...</item>
+        <item name="DialogSpotColor">@color/colorLight</item>
+        <item name="DialogSpotCount">5</item>
+    </style>
+
+    <!-- Animations for DialogFragment-->
+    <style name="DialogFragmentAnimation">
+        <item name="android:windowEnterAnimation">@anim/zoom_in</item>
+        <item name="android:windowExitAnimation">@anim/zoom_out</item>
+    </style>
+
+</resources>
